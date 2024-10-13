@@ -55,8 +55,13 @@ params:
 
   socialIcons:
     - name: github
-      title: GitHub
       url: "https://github.com/TsubakiDev"
+    - name: email
+      url: "mailto:i@tsubakidev.cc"
+    - name: rss
+      url: "https://tsubakidev.cc/index.xml"
+    - name: telegram
+      url: "https://t.me/tsubaki_dev"
 
 sitemap:
   changeFreq: ""
