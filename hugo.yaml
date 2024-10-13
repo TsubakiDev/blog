@@ -1,0 +1,80 @@
+baseURL: https://tsubakidev.cc/
+languageCode: zh-CN
+title: Tsubaki 的 Blog
+theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: Tsubaki 的个人博客
+  author: 
+    email: i@tsubakidev.cc
+    name: Tsubaki
+  copyright: "© 2024 - now TsubakiDev"
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Tsubaki"
+    Content: >
+      👋 你好
+
+      - 我是 Tsubaki, 一个咸鱼开发者.
+
+      - 本 Blog 旨在收集我开发/生活过程中的一些碎碎念和笔记, 希望这里的内容能为你带来一些启发和乐趣
+
+  socialIcons:
+    - name: github
+      title: GitHub
+      url: "https://github.com/TsubakiDev"
+
+sitemap:
+  changeFreq: ""
+  disable: false
+  filename: sitemap.xml
+  priority: -1
+
+services:
+  disqus:
+    shortname: "tsubaki"
+  googleAnalytics:
+    id: ""
+  rss:
+    limit: -1
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
