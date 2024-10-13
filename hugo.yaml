@@ -73,7 +73,7 @@ services:
   disqus:
     shortname: "tsubaki"
   googleAnalytics:
-    id: ""
+    id: G-YXGFG535KE
   rss:
     limit: -1
 
