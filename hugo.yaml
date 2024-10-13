@@ -1,6 +1,7 @@
 baseURL: https://tsubakidev.cc/
 languageCode: zh-CN
 title: Tsubaki 的 Blog
+copyright: "© 2024 - now TsubakiDev"
 theme: ["PaperMod"]
 
 enableInlineShortcodes: true
@@ -31,7 +32,6 @@ params:
   author: 
     email: i@tsubakidev.cc
     name: Tsubaki
-  copyright: "© 2024 - now TsubakiDev"
   defaultTheme: auto
   ShowShareButtons: true
   ShowReadingTime: true

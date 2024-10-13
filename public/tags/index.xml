@@ -8,6 +8,7 @@
     <language>zh-CN</language>
     <managingEditor>i@tsubakidev.cc (Tsubaki)</managingEditor>
     <webMaster>i@tsubakidev.cc (Tsubaki)</webMaster>
+    <copyright>2024 - now TsubakiDev</copyright>
     <atom:link href="http://localhost:58140/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
